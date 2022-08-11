@@ -5,7 +5,7 @@ class Test:
     def __init__(self):
         Test.b=20            #Inside constructor by using class name
     def m1(self):
-        Test.c-30            #Inside instance method by using class name
+        Test.c=30            #Inside instance method by using class name
     @classmethod
     def m2(cls):
         cls.d1=40            #Inside classmethod by using either class name or cls variable
